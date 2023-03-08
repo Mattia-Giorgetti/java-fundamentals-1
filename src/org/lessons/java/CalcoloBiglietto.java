@@ -17,7 +17,7 @@ public class CalcoloBiglietto {
         System.out.println("Quanti Km devi percorrere?");
         int totalKm = Integer.parseInt(myscan.nextLine());
 
-
+        myscan.close();
         double fullPrice = totalKm * pricePerKm;
 
         String pattern = "###,###.00";

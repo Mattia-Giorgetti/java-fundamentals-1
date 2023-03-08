@@ -14,7 +14,7 @@ public class FizzBuzz {
             System.out.println("Per giocare inserisci un numero tra 1 e 999");
             userNumber = Integer.parseInt(myScan.nextLine());
         }
-
+        myScan.close();
         System.out.println("Ottimo! ecco i numeri");
 
         for (int i = 1; i <= userNumber; i++) {
